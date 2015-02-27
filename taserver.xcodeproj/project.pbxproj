@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		262464E01A9FEE7B00C5EEAD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464D91A9FEE7B00C5EEAD /* main.c */; };
 		262464E11A9FEE7B00C5EEAD /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 262464DA1A9FEE7B00C5EEAD /* Makefile */; };
-		262464E21A9FEE7B00C5EEAD /* ta_cli_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DC1A9FEE7B00C5EEAD /* ta_cli_dummy.c */; };
 		262464E31A9FEE7B00C5EEAD /* ta_dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DD1A9FEE7B00C5EEAD /* ta_dict.c */; };
 		262464E41A9FEE7B00C5EEAD /* ta_serv.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DE1A9FEE7B00C5EEAD /* ta_serv.c */; };
 		262464E51A9FEE7B00C5EEAD /* test_app.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DF1A9FEE7B00C5EEAD /* test_app.c */; };
@@ -29,10 +27,8 @@
 
 /* Begin PBXFileReference section */
 		262464C41A9FECB900C5EEAD /* taserver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = taserver; sourceTree = BUILT_PRODUCTS_DIR; };
-		262464D91A9FEE7B00C5EEAD /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = SOURCE_ROOT; };
 		262464DA1A9FEE7B00C5EEAD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = src/Makefile; sourceTree = SOURCE_ROOT; };
 		262464DB1A9FEE7B00C5EEAD /* Makefile.apple */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.apple; path = src/Makefile.apple; sourceTree = SOURCE_ROOT; };
-		262464DC1A9FEE7B00C5EEAD /* ta_cli_dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ta_cli_dummy.c; path = src/ta_cli_dummy.c; sourceTree = SOURCE_ROOT; };
 		262464DD1A9FEE7B00C5EEAD /* ta_dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ta_dict.c; path = src/ta_dict.c; sourceTree = SOURCE_ROOT; };
 		262464DE1A9FEE7B00C5EEAD /* ta_serv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ta_serv.c; path = src/ta_serv.c; sourceTree = SOURCE_ROOT; };
 		262464DF1A9FEE7B00C5EEAD /* test_app.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = test_app.c; path = src/test_app.c; sourceTree = SOURCE_ROOT; };
@@ -70,10 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				26773F971A9FF01E00E5B996 /* dc.h */,
-				262464D91A9FEE7B00C5EEAD /* main.c */,
 				262464DA1A9FEE7B00C5EEAD /* Makefile */,
 				262464DB1A9FEE7B00C5EEAD /* Makefile.apple */,
-				262464DC1A9FEE7B00C5EEAD /* ta_cli_dummy.c */,
 				262464DD1A9FEE7B00C5EEAD /* ta_dict.c */,
 				262464DE1A9FEE7B00C5EEAD /* ta_serv.c */,
 				262464DF1A9FEE7B00C5EEAD /* test_app.c */,
@@ -139,11 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				262464E11A9FEE7B00C5EEAD /* Makefile in Sources */,
-				262464E01A9FEE7B00C5EEAD /* main.c in Sources */,
 				262464E41A9FEE7B00C5EEAD /* ta_serv.c in Sources */,
 				262464E51A9FEE7B00C5EEAD /* test_app.c in Sources */,
 				262464E31A9FEE7B00C5EEAD /* ta_dict.c in Sources */,
-				262464E21A9FEE7B00C5EEAD /* ta_cli_dummy.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
