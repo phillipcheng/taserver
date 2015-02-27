@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		262464E01A9FEE7B00C5EEAD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464D91A9FEE7B00C5EEAD /* main.c */; };
+		262464E11A9FEE7B00C5EEAD /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 262464DA1A9FEE7B00C5EEAD /* Makefile */; };
+		262464E21A9FEE7B00C5EEAD /* ta_cli_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DC1A9FEE7B00C5EEAD /* ta_cli_dummy.c */; };
+		262464E31A9FEE7B00C5EEAD /* ta_dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DD1A9FEE7B00C5EEAD /* ta_dict.c */; };
+		262464E41A9FEE7B00C5EEAD /* ta_serv.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DE1A9FEE7B00C5EEAD /* ta_serv.c */; };
+		262464E51A9FEE7B00C5EEAD /* test_app.c in Sources */ = {isa = PBXBuildFile; fileRef = 262464DF1A9FEE7B00C5EEAD /* test_app.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		262464C21A9FECB900C5EEAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		262464C41A9FECB900C5EEAD /* taserver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = taserver; sourceTree = BUILT_PRODUCTS_DIR; };
+		262464D91A9FEE7B00C5EEAD /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = SOURCE_ROOT; };
+		262464DA1A9FEE7B00C5EEAD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = src/Makefile; sourceTree = SOURCE_ROOT; };
+		262464DB1A9FEE7B00C5EEAD /* Makefile.apple */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.apple; path = src/Makefile.apple; sourceTree = SOURCE_ROOT; };
+		262464DC1A9FEE7B00C5EEAD /* ta_cli_dummy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ta_cli_dummy.c; path = src/ta_cli_dummy.c; sourceTree = SOURCE_ROOT; };
+		262464DD1A9FEE7B00C5EEAD /* ta_dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ta_dict.c; path = src/ta_dict.c; sourceTree = SOURCE_ROOT; };
+		262464DE1A9FEE7B00C5EEAD /* ta_serv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ta_serv.c; path = src/ta_serv.c; sourceTree = SOURCE_ROOT; };
+		262464DF1A9FEE7B00C5EEAD /* test_app.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = test_app.c; path = src/test_app.c; sourceTree = SOURCE_ROOT; };
+		26773F971A9FF01E00E5B996 /* dc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dc.h; path = src/dc.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262464C11A9FECB900C5EEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262464BB1A9FECB900C5EEAD = {
+			isa = PBXGroup;
+			children = (
+				262464C61A9FECB900C5EEAD /* src */,
+				262464C51A9FECB900C5EEAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		262464C51A9FECB900C5EEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				262464C41A9FECB900C5EEAD /* taserver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		262464C61A9FECB900C5EEAD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				26773F971A9FF01E00E5B996 /* dc.h */,
+				262464D91A9FEE7B00C5EEAD /* main.c */,
+				262464DA1A9FEE7B00C5EEAD /* Makefile */,
+				262464DB1A9FEE7B00C5EEAD /* Makefile.apple */,
+				262464DC1A9FEE7B00C5EEAD /* ta_cli_dummy.c */,
+				262464DD1A9FEE7B00C5EEAD /* ta_dict.c */,
+				262464DE1A9FEE7B00C5EEAD /* ta_serv.c */,
+				262464DF1A9FEE7B00C5EEAD /* test_app.c */,
+			);
+			name = src;
+			path = taserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		262464C31A9FECB900C5EEAD /* taserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262464CB1A9FECB900C5EEAD /* Build configuration list for PBXNativeTarget "taserver" */;
+			buildPhases = (
+				262464C01A9FECB900C5EEAD /* Sources */,
+				262464C11A9FECB900C5EEAD /* Frameworks */,
+				262464C21A9FECB900C5EEAD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taserver;
+			productName = taserver;
+			productReference = 262464C41A9FECB900C5EEAD /* taserver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		262464BC1A9FECB900C5EEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cheng Yi";
+				TargetAttributes = {
+					262464C31A9FECB900C5EEAD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 262464BF1A9FECB900C5EEAD /* Build configuration list for PBXProject "taserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 262464BB1A9FECB900C5EEAD;
+			productRefGroup = 262464C51A9FECB900C5EEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				262464C31A9FECB900C5EEAD /* taserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		262464C01A9FECB900C5EEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262464E11A9FEE7B00C5EEAD /* Makefile in Sources */,
+				262464E01A9FEE7B00C5EEAD /* main.c in Sources */,
+				262464E41A9FEE7B00C5EEAD /* ta_serv.c in Sources */,
+				262464E51A9FEE7B00C5EEAD /* test_app.c in Sources */,
+				262464E31A9FEE7B00C5EEAD /* ta_dict.c in Sources */,
+				262464E21A9FEE7B00C5EEAD /* ta_cli_dummy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		262464C91A9FECB900C5EEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		262464CA1A9FECB900C5EEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		262464CC1A9FECB900C5EEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				OTHER_LDFLAGS = (
+					"-g",
+					"-L/opt/fd/lib",
+					"-lfdcore",
+					"-lfdproto",
+					"-flat_namespace",
+					"-undefined",
+					suppress,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/opt/fd/include /opt/local/include";
+			};
+			name = Debug;
+		};
+		262464CD1A9FECB900C5EEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				OTHER_LDFLAGS = (
+					"-g",
+					"-L/opt/fd/lib",
+					"-lfdcore",
+					"-lfdproto",
+					"-flat_namespace",
+					"-undefined",
+					suppress,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/opt/fd/include /opt/local/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		262464BF1A9FECB900C5EEAD /* Build configuration list for PBXProject "taserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262464C91A9FECB900C5EEAD /* Debug */,
+				262464CA1A9FECB900C5EEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262464CB1A9FECB900C5EEAD /* Build configuration list for PBXNativeTarget "taserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262464CC1A9FECB900C5EEAD /* Debug */,
+				262464CD1A9FECB900C5EEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 262464BC1A9FECB900C5EEAD /* Project object */;
+}
