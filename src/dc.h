@@ -20,8 +20,6 @@
 typedef enum { false, true } bool;
 typedef enum {d_start=1, d_update=2, d_stop=3} d_req_type;//diameter request op type
 
-extern const int DC_CLIENT;
-extern const int DC_SERVER;
 
 extern const unsigned long DUMMY_INIT_QUOTA;
 
@@ -34,7 +32,6 @@ struct ta_conf {
     uint32_t	vendor_id;	/* default 999999 */
     uint32_t	appli_id;	/* default 123456 */
     uint32_t	cmd_id;		/* default 234567 */
-    uint16_t    mode; //client=1, server=2
     char 	*	dest_realm;	/* default local realm */
     char 	*	dest_host;	/* default NULL */
     char 	*	user_name;	/* default NULL */
@@ -61,8 +58,6 @@ void usageserver_session_free(UsageServerSession *data);
 /* Parse the configuration file */
 int ta_conf_handle(char * conffile);
 
-int ta_cli_init(void);
-void ta_cli_fini(void);
 int ta_serv_init(void);
 void ta_serv_fini(void);
 

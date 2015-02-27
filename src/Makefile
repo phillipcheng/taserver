@@ -3,7 +3,7 @@ DS_INSTALL_DIR	= /opt/fd/lib/freeDiameter
 CFLAGS	= -g -Wall -I/opt/local/include -I/opt/ats/include -I/opt/fd/include -I../include -mcx16 -fPIC -c
 DS_LDFLAGS=-g -L/opt/fd/lib -lfdcore -lfdproto -lpthread -shared
 
-SRC_DS	= ta_serv.c test_app.c ta_dict.c ta_cli_dummy.c
+SRC_DS	= ta_serv.c test_app.c ta_dict.c
 
 OBJS_DS	= $(SRC_DS:.c=.o)
 
